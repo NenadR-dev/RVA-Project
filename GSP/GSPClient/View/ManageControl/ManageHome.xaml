@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="GSPClient.View.ManageControl.ManageHome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GSPClient.View.ManageControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="540" d:DesignWidth="929">
+    <Grid Background="#FFDEDEDE">
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="300">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Label Content="Lines" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+        <Grid VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="250" Height="350" Margin="0,0,0,125">
+            <DataGrid x:Name="LineDG" ItemsSource="{Binding LineVM}" SelectedItem="{Binding SelectedLine,Mode=TwoWay}" MouseDoubleClick="LineDG_MouseDoubleClick">
+            </DataGrid>
+        </Grid>
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Center" Height="50" Width="305">
+            <Label Content="Drivers" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="350" Height="350" Margin="0,0,0,125">
+            <DataGrid x:Name="DriverDG" MouseDoubleClick="DriverDG_MouseDoubleClick" ItemsSource="{Binding DriverVM}" SelectedItem="{Binding SelectedDriver,Mode=TwoWay}">
+            </DataGrid>
+        </Grid>
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Height="50" Width="305">
+            <Label Content="Buses" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="250" Height="350" Margin="0,0,0,125">
+            <DataGrid x:Name="BusDG" MouseDoubleClick="BusDG_MouseDoubleClick" ItemsSource="{Binding BusVM}" SelectedItem="{Binding SelectedBus,Mode=TwoWay}">
+            </DataGrid>
+        </Grid>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="100" Width="929">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Filters: " FontSize="24"/>
+                <Label Content="Line Number" FontSize="24" Margin="50,0,0,0"/>
+                <ComboBox ItemsSource="{Binding Filters}" SelectedValue="{Binding SelectedFilter}"
+                          Width="150" Margin="20,0,0,0"
+                          SelectionChanged="ComboBox_SelectionChanged"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

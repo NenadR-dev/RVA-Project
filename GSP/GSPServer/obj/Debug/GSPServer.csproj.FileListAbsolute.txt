@@ -1,0 +1,16 @@
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\App_Data\GSPDB.mdf
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\App_Data\GSPDB_log.ldf
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPServer.exe.config
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPServer.exe
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPServer.pdb
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\EntityFramework.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPPackage.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPPackage.pdb
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\GSPPackage.dll.config
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\EntityFramework.xml
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\obj\Debug\GSPServer.csprojResolveAssemblyReference.cache
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\obj\Debug\GSPServer.csproj.CoreCompileInputs.cache
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\obj\Debug\GSPServer.exe
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPServer\obj\Debug\GSPServer.pdb

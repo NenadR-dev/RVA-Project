@@ -1,0 +1,10 @@
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\GSPPackage.dll.config
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\GSPPackage.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\GSPPackage.pdb
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\EntityFramework.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\EntityFramework.xml
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\obj\Debug\GSPPackage.csproj.CoreCompileInputs.cache
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\obj\Debug\GSPPackage.dll
+C:\Users\Nenad\Desktop\FAx\RVA\GSP\GSPPackage\obj\Debug\GSPPackage.pdb
